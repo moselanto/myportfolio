@@ -123,3 +123,31 @@ footer a {
 footer a:hover {
   color: #fff;
 }
+
+/* Case Study Page */
+.case-study {
+  max-width: 900px;
+  margin: auto;
+  padding: 3rem 2rem;
+}
+
+.case-study .subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.case-image {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+}
+
