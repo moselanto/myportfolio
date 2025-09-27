@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  color: #333;
+  background-color: #fafafa;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #0056d6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+/* Home Section */
+.home {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #f0f4ff;
+}
+
+.statement {
+  font-size: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.featured-case img {
+  max-width: 400px;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  background: #0056d6;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background: #003f9e;
+}
+
+/* About Section */
+.about {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Case Studies */
+.case-studies {
+  padding: 3rem 2rem;
+  background: #fff;
+}
+
+.case-card {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.case-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Contact Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer a {
+  color: #4fa3ff;
+}
+
+footer a:hover {
+  color: #fff;
+}
